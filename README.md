@@ -24,3 +24,6 @@ EJS is a simple templating language that lets you generate HTML markup with plai
 - npm install ejs --save
 
 
+[![Watch the video](http://res.cloudinary.com/aditimadan/video/upload/so_0.5,w_1100,h_1100,c_crop/uploadViewScreenRec_t4wvkt.jpg)](https://res.cloudinary.com/aditimadan/video/upload/vc_auto/uploadViewScreenRec_t4wvkt.mp4)
+
+[![Watch the video](http://res.cloudinary.com/aditimadan/video/upload/so_13,h_1400,c_crop/uploadViewScreenRec_t4wvkt.jpg)]
