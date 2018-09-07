@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<style>
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial;
+}
+
+.header {
+    text-align: center;
+    padding: 32px;
+}
+
+
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 5px;
+    text-align: left;    
+}
+</style>
+<body>
+
+<!-- Header -->
+<div class="header" id="myHeader">
+  <h1>Image Grid</h1>
+ 
+</div>
+
+<!-- Photo Grid -->
+<div class="row"> 
+  <div class="column">
+      <table>
+      <tr>
+        <% result.forEach(function(result) { %>
+            <tr>
+            <img src=<%= result.imageURl %> style="width:60%" align="middle"> 
+            <% }); %></tr>
+        </tr>
+      </table>
+  </div>
+</div>
+</body>
+</html>

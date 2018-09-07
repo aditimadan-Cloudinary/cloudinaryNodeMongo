@@ -1,0 +1,31 @@
+<html>
+    <style>
+
+body { 
+    display: block;
+    margin-top: 15em;
+}
+input[type="submit"] {
+    border: 1px solid #ccc;
+    background-color: #4CAF50; /* Green */
+    font-size: 16px;
+    border-width: thick;
+    display: inline-block;
+    padding: 18px 32px;
+    cursor: pointer
+
+}
+</style>
+    </style>
+   <center><font color="white"> <h1>Upload to Cloudinary</font></h1><center>
+        <body background="http://res.cloudinary.com/aditimadan/image/upload/f_auto,q_auto/photo-1460602594182-8568137446ce_eke3h8.jpg">        
+        <br><form action="http://localhost:3000/" enctype="multipart/form-data" method="post">
+            <input type="file" name="file"><br><br><br>
+            <input type="submit" value="Upload Image ">
+        </form>
+        <form action="http://localhost:3000/Previous" enctype="multipart/form-data" method="get">
+         
+            <input type="submit" value="Previously Uploaded Images ">
+        </form>
+        </body>
+</html>
